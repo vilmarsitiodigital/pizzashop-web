@@ -106,6 +106,10 @@ $ git push origin my-feature
 
 Depois que sua solicitação pull for mesclada, você poderá excluir sua ramificação
 
+## 🗒️ Anotações Notion
+
+https://encurtador.com.br/CLY06
+
 ## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o [LICENSE](LICENSE) arquivo para mais detalhes.
