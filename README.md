@@ -51,7 +51,10 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ## 💻 Começando
 
-### Requirements
+### Requisitos
+
+**Instalar e rodar api pizza shop**
+- [Pizza Shop API](https://github.com/vilmarsitiodigital/pizzashop-api/)
 
 **Clone o projeto e acesse a pasta**
 
