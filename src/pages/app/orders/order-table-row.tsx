@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
-import { ArrowRight, Loader2, Search, X } from 'lucide-react'
+import { ArrowRight, Loader2, Search } from 'lucide-react'
 import { useState } from 'react'
 import { toast } from 'sonner'
 
