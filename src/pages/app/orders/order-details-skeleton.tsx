@@ -1,7 +1,3 @@
-import { formatDistanceToNow } from 'date-fns'
-import { ptBR } from 'date-fns/locale'
-
-import { OrderStatus } from '@/components/order-status'
 import { Skeleton } from '@/components/ui/skeleton'
 import {
   Table,
