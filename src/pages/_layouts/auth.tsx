@@ -1,6 +1,6 @@
 import Autoplay from 'embla-carousel-autoplay'
 import { CheckCircle, Pizza, Rocket, Settings } from 'lucide-react'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Outlet } from 'react-router-dom'
 
 import {
