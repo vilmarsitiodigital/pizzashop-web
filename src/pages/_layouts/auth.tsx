@@ -47,7 +47,7 @@ export function AuthLayout() {
             <CarouselItem>
               <div className="flex flex-col items-center justify-center gap-3">
                 <Settings color="red" className="h-20 w-20" />
-                <h1 className="text-2xl font-semibold tracking-tight text-white">
+                <h1 className="text-2xl font-semibold tracking-tight">
                   Customizável
                 </h1>
                 <p className="w-[350px] text-center">
@@ -59,7 +59,7 @@ export function AuthLayout() {
             <CarouselItem>
               <div className="flex flex-col items-center justify-center gap-3">
                 <CheckCircle color="red" className="h-20 w-20" />
-                <h1 className="text-2xl font-semibold tracking-tight text-white">
+                <h1 className="text-2xl font-semibold tracking-tight">
                   Descomplicado
                 </h1>
                 <p className="w-[350px] text-center">
@@ -71,9 +71,7 @@ export function AuthLayout() {
             <CarouselItem>
               <div className="flex flex-col items-center justify-center gap-3">
                 <Rocket color="red" className="h-20 w-20" />
-                <h1 className="text-2xl font-semibold tracking-tight text-white">
-                  Ágil
-                </h1>
+                <h1 className="text-2xl font-semibold tracking-tight">Ágil</h1>
                 <p className="w-[350px] text-center">
                   Nosso painel permite ações ágeis e gerenciamento eficaz para
                   sua produtividade.
@@ -86,19 +84,19 @@ export function AuthLayout() {
               <button
                 onClick={() => api?.scrollTo(0)}
                 className={`block h-2 rounded-full ${
-                  current === 1 ? 'w-8 bg-red-600' : 'w-2 bg-white'
+                  current === 1 ? 'w-8 bg-red-600' : 'w-2 bg-gray-100'
                 }`}
               ></button>
               <button
                 onClick={() => api?.scrollTo(1)}
                 className={`block h-2 w-2 rounded-full ${
-                  current === 2 ? 'w-8 bg-red-600' : 'w-2 bg-white'
+                  current === 2 ? 'w-8 bg-red-600' : 'w-2 bg-gray-100'
                 }`}
               ></button>
               <button
                 onClick={() => api?.scrollTo(2)}
                 className={`block h-2 w-2 rounded-full ${
-                  current === 3 ? 'w-8 bg-red-600' : 'w-2 bg-white'
+                  current === 3 ? 'w-8 bg-red-600' : 'w-2 bg-gray-100'
                 }`}
               ></button>
             </div>
