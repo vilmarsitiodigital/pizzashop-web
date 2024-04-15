@@ -39,12 +39,14 @@ export function SignIn() {
     try {
       await authenticate({ email })
 
-      toast.success('Enviamos um link de autenticação para seu e-mail.', {
-        action: {
-          label: 'Reenviar',
-          onClick: () => authenticate({ email }),
-        },
-      })
+      if (email !== 'demo@vilmarbatista.com.br') {
+        toast.success('Enviamos um link de autenticação para seu e-mail.', {
+          action: {
+            label: 'Reenviar',
+            onClick: () => authenticate({ email }),
+          },
+        })
+      }
     } catch (err) {
       toast.error('Credenciais inválidas')
     }

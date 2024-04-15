@@ -5,5 +5,8 @@ export interface SignInRequest {
 }
 
 export async function signIn({ email }: SignInRequest) {
-  await api.post('/authenticate', { email })
+  const response = await api.post('/authenticate', { email })
+  if (response.data.link) {
+    window.location.href = response.data.link
+  }
 }
