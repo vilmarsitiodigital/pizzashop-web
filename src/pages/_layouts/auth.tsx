@@ -84,19 +84,25 @@ export function AuthLayout() {
               <button
                 onClick={() => api?.scrollTo(0)}
                 className={`block h-2 rounded-full ${
-                  current === 1 ? 'w-8 bg-red-600' : 'w-2 dark:bg-gray-100'
+                  current === 1
+                    ? 'w-8 bg-red-600'
+                    : 'w-2 bg-gray-800 dark:bg-gray-100'
                 }`}
               ></button>
               <button
                 onClick={() => api?.scrollTo(1)}
                 className={`block h-2 w-2 rounded-full ${
-                  current === 2 ? 'w-8 bg-red-600' : 'w-2 dark:bg-gray-100'
+                  current === 2
+                    ? 'w-8 bg-red-600'
+                    : 'w-2 bg-gray-800 dark:bg-gray-100'
                 }`}
               ></button>
               <button
                 onClick={() => api?.scrollTo(2)}
                 className={`block h-2 w-2 rounded-full ${
-                  current === 3 ? 'w-8 bg-red-600' : 'w-2 dark:bg-gray-100'
+                  current === 3
+                    ? 'w-8 bg-red-600'
+                    : 'w-2 bg-gray-800 dark:bg-gray-100'
                 }`}
               ></button>
             </div>
