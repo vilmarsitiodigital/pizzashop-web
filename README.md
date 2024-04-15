@@ -101,6 +101,12 @@ $ git push origin my-feature
 
 Depois que sua solicitação pull for mesclada, você poderá excluir sua ramificação
 
+## 🗒️ Deploy
+
+https://pizzashopweb.vilmarbatista.com.br
+
+Email Demo: demo@vilmarbatista.com.br
+
 ## 🗒️ Anotações Notion
 
 https://encurtador.com.br/CLY06
