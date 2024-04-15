@@ -23,7 +23,7 @@ export function Pagination({
   const pages = Math.floor(totalCount / perPage) || 1
 
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between py-4">
       <span className="text-sm text-muted-foreground">
         Total de {totalCount} item(s)
       </span>
